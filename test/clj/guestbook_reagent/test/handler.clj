@@ -22,6 +22,14 @@
     (let [response ((app) (request :get "/"))]
       (is (= 200 (:status response)))))
 
+  (testing "about route"
+    (let [response ((app) (request :get "/about"))]
+      (is (= 200 (:status response)))))
+
+  (testing "message route" ; expected 301 'found "/"'
+    (let [response ((app) (request :post "/message"))]
+      (is (= 403 (:status response))))) ; FIXME 302 fails 'cos no CSRF context
+
   (testing "not-found route"
     (let [response ((app) (request :get "/invalid"))]
       (is (= 404 (:status response))))))

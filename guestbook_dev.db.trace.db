@@ -1,0 +1,15 @@
+2020-06-07 16:34:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GUESTBOOK_REAGENT" not found; SQL statement:
+SELECT * from guestbook_reagent [42102-200]
+2020-06-07 16:35:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GUESTBOOK_REAGENT" not found; SQL statement:
+SELECT * from guestbook_reagent [42102-200]
+2020-06-07 16:35:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GUESTBOOK_REAGENT" not found; SQL statement:
+SELECT * from guestbook_reagent [42102-200]
+2020-06-07 16:35:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GUESTBOOK_REAGENT" not found; SQL statement:
+SELECT * from guestbook_reagent [42102-200]
+2020-06-07 16:35:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GUESTBOOK_REAGENT" not found; SQL statement:
+SELECT * from guestbook_reagent [42102-200]
